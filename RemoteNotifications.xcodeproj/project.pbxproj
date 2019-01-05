@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65D7BFB221E0E45A000A671F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7BFB121E0E45A000A671F /* AppDelegate.swift */; };
+		65D7BFB421E0E45A000A671F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7BFB321E0E45A000A671F /* ViewController.swift */; };
+		65D7BFB721E0E45A000A671F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D7BFB521E0E45A000A671F /* Main.storyboard */; };
+		65D7BFB921E0E45C000A671F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D7BFB821E0E45C000A671F /* Assets.xcassets */; };
+		65D7BFBC21E0E45C000A671F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D7BFBA21E0E45C000A671F /* LaunchScreen.storyboard */; };
+		65D7BFC721E0E45C000A671F /* RemoteNotificationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7BFC621E0E45C000A671F /* RemoteNotificationsTests.swift */; };
+		65D7BFD221E0E45C000A671F /* RemoteNotificationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D7BFD121E0E45C000A671F /* RemoteNotificationsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65D7BFC321E0E45C000A671F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65D7BFA621E0E45A000A671F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D7BFAD21E0E45A000A671F;
+			remoteInfo = RemoteNotifications;
+		};
+		65D7BFCE21E0E45C000A671F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65D7BFA621E0E45A000A671F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65D7BFAD21E0E45A000A671F;
+			remoteInfo = RemoteNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65D7BFAE21E0E45A000A671F /* RemoteNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RemoteNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D7BFB121E0E45A000A671F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65D7BFB321E0E45A000A671F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65D7BFB621E0E45A000A671F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65D7BFB821E0E45C000A671F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D7BFBB21E0E45C000A671F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65D7BFBD21E0E45C000A671F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D7BFC221E0E45C000A671F /* RemoteNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D7BFC621E0E45C000A671F /* RemoteNotificationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteNotificationsTests.swift; sourceTree = "<group>"; };
+		65D7BFC821E0E45C000A671F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D7BFCD21E0E45C000A671F /* RemoteNotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RemoteNotificationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D7BFD121E0E45C000A671F /* RemoteNotificationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteNotificationsUITests.swift; sourceTree = "<group>"; };
+		65D7BFD321E0E45C000A671F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65D7BFAB21E0E45A000A671F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D7BFBF21E0E45C000A671F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D7BFCA21E0E45C000A671F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65D7BFA521E0E45A000A671F = {
+			isa = PBXGroup;
+			children = (
+				65D7BFB021E0E45A000A671F /* RemoteNotifications */,
+				65D7BFC521E0E45C000A671F /* RemoteNotificationsTests */,
+				65D7BFD021E0E45C000A671F /* RemoteNotificationsUITests */,
+				65D7BFAF21E0E45A000A671F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65D7BFAF21E0E45A000A671F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65D7BFAE21E0E45A000A671F /* RemoteNotifications.app */,
+				65D7BFC221E0E45C000A671F /* RemoteNotificationsTests.xctest */,
+				65D7BFCD21E0E45C000A671F /* RemoteNotificationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65D7BFB021E0E45A000A671F /* RemoteNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				65D7BFB121E0E45A000A671F /* AppDelegate.swift */,
+				65D7BFB321E0E45A000A671F /* ViewController.swift */,
+				65D7BFB521E0E45A000A671F /* Main.storyboard */,
+				65D7BFB821E0E45C000A671F /* Assets.xcassets */,
+				65D7BFBA21E0E45C000A671F /* LaunchScreen.storyboard */,
+				65D7BFBD21E0E45C000A671F /* Info.plist */,
+			);
+			path = RemoteNotifications;
+			sourceTree = "<group>";
+		};
+		65D7BFC521E0E45C000A671F /* RemoteNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				65D7BFC621E0E45C000A671F /* RemoteNotificationsTests.swift */,
+				65D7BFC821E0E45C000A671F /* Info.plist */,
+			);
+			path = RemoteNotificationsTests;
+			sourceTree = "<group>";
+		};
+		65D7BFD021E0E45C000A671F /* RemoteNotificationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65D7BFD121E0E45C000A671F /* RemoteNotificationsUITests.swift */,
+				65D7BFD321E0E45C000A671F /* Info.plist */,
+			);
+			path = RemoteNotificationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65D7BFAD21E0E45A000A671F /* RemoteNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D7BFD621E0E45C000A671F /* Build configuration list for PBXNativeTarget "RemoteNotifications" */;
+			buildPhases = (
+				65D7BFAA21E0E45A000A671F /* Sources */,
+				65D7BFAB21E0E45A000A671F /* Frameworks */,
+				65D7BFAC21E0E45A000A671F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RemoteNotifications;
+			productName = RemoteNotifications;
+			productReference = 65D7BFAE21E0E45A000A671F /* RemoteNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65D7BFC121E0E45C000A671F /* RemoteNotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D7BFD921E0E45C000A671F /* Build configuration list for PBXNativeTarget "RemoteNotificationsTests" */;
+			buildPhases = (
+				65D7BFBE21E0E45C000A671F /* Sources */,
+				65D7BFBF21E0E45C000A671F /* Frameworks */,
+				65D7BFC021E0E45C000A671F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D7BFC421E0E45C000A671F /* PBXTargetDependency */,
+			);
+			name = RemoteNotificationsTests;
+			productName = RemoteNotificationsTests;
+			productReference = 65D7BFC221E0E45C000A671F /* RemoteNotificationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65D7BFCC21E0E45C000A671F /* RemoteNotificationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D7BFDC21E0E45C000A671F /* Build configuration list for PBXNativeTarget "RemoteNotificationsUITests" */;
+			buildPhases = (
+				65D7BFC921E0E45C000A671F /* Sources */,
+				65D7BFCA21E0E45C000A671F /* Frameworks */,
+				65D7BFCB21E0E45C000A671F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65D7BFCF21E0E45C000A671F /* PBXTargetDependency */,
+			);
+			name = RemoteNotificationsUITests;
+			productName = RemoteNotificationsUITests;
+			productReference = 65D7BFCD21E0E45C000A671F /* RemoteNotificationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65D7BFA621E0E45A000A671F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Reatchall;
+				TargetAttributes = {
+					65D7BFAD21E0E45A000A671F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					65D7BFC121E0E45C000A671F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 65D7BFAD21E0E45A000A671F;
+					};
+					65D7BFCC21E0E45C000A671F = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 65D7BFAD21E0E45A000A671F;
+					};
+				};
+			};
+			buildConfigurationList = 65D7BFA921E0E45A000A671F /* Build configuration list for PBXProject "RemoteNotifications" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65D7BFA521E0E45A000A671F;
+			productRefGroup = 65D7BFAF21E0E45A000A671F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65D7BFAD21E0E45A000A671F /* RemoteNotifications */,
+				65D7BFC121E0E45C000A671F /* RemoteNotificationsTests */,
+				65D7BFCC21E0E45C000A671F /* RemoteNotificationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65D7BFAC21E0E45A000A671F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D7BFBC21E0E45C000A671F /* LaunchScreen.storyboard in Resources */,
+				65D7BFB921E0E45C000A671F /* Assets.xcassets in Resources */,
+				65D7BFB721E0E45A000A671F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D7BFC021E0E45C000A671F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D7BFCB21E0E45C000A671F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65D7BFAA21E0E45A000A671F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D7BFB421E0E45A000A671F /* ViewController.swift in Sources */,
+				65D7BFB221E0E45A000A671F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D7BFBE21E0E45C000A671F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D7BFC721E0E45C000A671F /* RemoteNotificationsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65D7BFC921E0E45C000A671F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D7BFD221E0E45C000A671F /* RemoteNotificationsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65D7BFC421E0E45C000A671F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D7BFAD21E0E45A000A671F /* RemoteNotifications */;
+			targetProxy = 65D7BFC321E0E45C000A671F /* PBXContainerItemProxy */;
+		};
+		65D7BFCF21E0E45C000A671F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65D7BFAD21E0E45A000A671F /* RemoteNotifications */;
+			targetProxy = 65D7BFCE21E0E45C000A671F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65D7BFB521E0E45A000A671F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D7BFB621E0E45A000A671F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65D7BFBA21E0E45C000A671F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D7BFBB21E0E45C000A671F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65D7BFD421E0E45C000A671F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65D7BFD521E0E45C000A671F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65D7BFD721E0E45C000A671F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G86T5G6A;
+				INFOPLIST_FILE = RemoteNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reatchall.RemoteNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D7BFD821E0E45C000A671F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G86T5G6A;
+				INFOPLIST_FILE = RemoteNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reatchall.RemoteNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		65D7BFDA21E0E45C000A671F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G86T5G6A;
+				INFOPLIST_FILE = RemoteNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reatchall.RemoteNotificationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteNotifications.app/RemoteNotifications";
+			};
+			name = Debug;
+		};
+		65D7BFDB21E0E45C000A671F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G86T5G6A;
+				INFOPLIST_FILE = RemoteNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reatchall.RemoteNotificationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RemoteNotifications.app/RemoteNotifications";
+			};
+			name = Release;
+		};
+		65D7BFDD21E0E45C000A671F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G86T5G6A;
+				INFOPLIST_FILE = RemoteNotificationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reatchall.RemoteNotificationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoteNotifications;
+			};
+			name = Debug;
+		};
+		65D7BFDE21E0E45C000A671F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D6G86T5G6A;
+				INFOPLIST_FILE = RemoteNotificationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Reatchall.RemoteNotificationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RemoteNotifications;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65D7BFA921E0E45A000A671F /* Build configuration list for PBXProject "RemoteNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D7BFD421E0E45C000A671F /* Debug */,
+				65D7BFD521E0E45C000A671F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D7BFD621E0E45C000A671F /* Build configuration list for PBXNativeTarget "RemoteNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D7BFD721E0E45C000A671F /* Debug */,
+				65D7BFD821E0E45C000A671F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D7BFD921E0E45C000A671F /* Build configuration list for PBXNativeTarget "RemoteNotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D7BFDA21E0E45C000A671F /* Debug */,
+				65D7BFDB21E0E45C000A671F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D7BFDC21E0E45C000A671F /* Build configuration list for PBXNativeTarget "RemoteNotificationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D7BFDD21E0E45C000A671F /* Debug */,
+				65D7BFDE21E0E45C000A671F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65D7BFA621E0E45A000A671F /* Project object */;
+}
